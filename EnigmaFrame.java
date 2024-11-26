@@ -8,7 +8,7 @@ public class EnigmaFrame extends JFrame {
     private JComboBox<Integer> outerRotor;
     private JTextField startPos;
     private JTextArea input;
-    private JTextArea output;
+    private JTextArea output; 
     private JButton encrypt;
     private JButton decrypt;
     private Enigma enigmaMachine;
