@@ -79,12 +79,12 @@ public class EnigmaFrame extends JFrame {
             String pos = startPos.getText().toUpperCase().trim();
             
             if(pos.length() != 3) {
-                JOptionPane.showMessageDialog(null, "Hey! Enter exactly 3 characters!");
-                return;
+                return;                JOptionPane.showMessageDialog(null, "the initial position requires 3 characters");
+
             }
             
             if (!pos.matches("[A-Z]{3}")) {
-                JOptionPane.showMessageDialog(null, "Starting position must be 3 letters (A-Z)!");
+                JOptionPane.showMessageDialog(null, "the initial position must be 3 letters");
                 return;
             }
             
@@ -94,7 +94,7 @@ public class EnigmaFrame extends JFrame {
             output.setText(result);
             
         } catch(Exception e) {
-            JOptionPane.showMessageDialog(null, "Oops! Something went wrong: " + e.getMessage());
+            JOptionPane.showMessageDialog(null, "idk what happened man. this is what the error says: " + e.getMessage());
         }
     }
     
@@ -106,12 +106,12 @@ public class EnigmaFrame extends JFrame {
             String pos = startPos.getText().toUpperCase().trim();
             
             if(pos.length() != 3) {
-                JOptionPane.showMessageDialog(null, "Hey! Enter exactly 3 characters!");
+                JOptionPane.showMessageDialog(null, "the initial position requires 3 characters");
                 return;
             }
             
             if (!pos.matches("[A-Z]{3}")) {
-                JOptionPane.showMessageDialog(null, "Starting position must be 3 letters (A-Z)!");
+                JOptionPane.showMessageDialog(null, "the initial position must be 3 letters");
                 return;
             }
             
@@ -121,7 +121,7 @@ public class EnigmaFrame extends JFrame {
             output.setText(result);
             
         } catch(Exception e) {
-            JOptionPane.showMessageDialog(null, "Oops! Something went wrong: " + e.getMessage());
+            JOptionPane.showMessageDialog(null, "idk what happened man. this is what the error says: " + e.getMessage());
         }
     }
 }
