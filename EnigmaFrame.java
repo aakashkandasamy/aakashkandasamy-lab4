@@ -24,7 +24,6 @@ public class EnigmaFrame extends JFrame {
         JPanel controlPanel = new JPanel(new FlowLayout(FlowLayout.LEFT, 5, 5));
         JPanel textPanel = new JPanel(new GridLayout(2, 1, 5, 5));
         
-        // Control panel components
         controlPanel.add(new JLabel("Inner"));
         innerRotor = new JComboBox<>(new Integer[]{1, 2, 3, 4, 5});
         controlPanel.add(innerRotor);
@@ -47,7 +46,6 @@ public class EnigmaFrame extends JFrame {
         controlPanel.add(encrypt);
         controlPanel.add(decrypt);
         
-        // Text areas
         JPanel inputPanel = new JPanel(new BorderLayout());
         inputPanel.add(new JLabel("Input:"), BorderLayout.NORTH);
         input = new JTextArea(3, 40);
