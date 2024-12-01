@@ -1,3 +1,9 @@
+commit de391b248c61c7cd5630b8dabfc193d17ae2dbb3
+Author: aakashkandasamy <aakashkandasamy@gmail.com>
+Date:   Sun Dec 1 13:37:27 2024 -0500
+
+    jpanels and jlabels
+
 commit 17702585d9ae6fe8e70e8cdf5ac9147eaf941f8c
 Author: aakashkandasamy <aakashkandasamy@gmail.com>
 Date:   Sun Dec 1 13:36:34 2024 -0500

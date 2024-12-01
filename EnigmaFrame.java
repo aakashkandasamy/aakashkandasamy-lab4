@@ -77,8 +77,8 @@ public class EnigmaFrame extends JFrame {
             String pos = startPos.getText().toUpperCase().trim();
             
             if(pos.length() != 3) {
-                return;                JOptionPane.showMessageDialog(null, "the initial position requires 3 characters");
-
+                JOptionPane.showMessageDialog(null, "the initial position requires 3 characters");
+                return;
             }
             
             if (!pos.matches("[A-Z]{3}")) {
